@@ -133,7 +133,7 @@ th, td {
     padding: 15px;
 }
 
-@media only screen and (max-width:375px){
+@media only screen and (max-width:430px){
     .wrapper{
         padding: 0px;
     }
