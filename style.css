@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    background-color: hsl(330, 100%, 98%);
+}
+
+.wrapper{
+    padding: 80px;
+    border-radius: 15px;
+}
+
+.big-text{
+    font-family: "Young Serif", serif;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: normal;
+    padding: 35px 0 10px 0;
+}
+
+.paragraph{
+    line-height: 4vh;
+    padding: 10px 0;
+    max-width: 90%;
+    color: hsl(30, 10%, 34%);
+    font-weight: 400;
+}
+
+.image-box img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.list-one{
+    margin: 50px;
+    padding: 30px;
+    background-color: hsl(30, 54%, 90%);
+    border-radius: 15px;
+}
+
+.list-one h3{
+    font-weight: bold;
+    font-size: 25px;
+    padding-bottom: 10px;
+    color: hsl(332, 51%, 32%);
+}
+
+.list-one ul li{
+    margin: 15px;
+}
+
+.list-one ul li span{
+    font-weight: bold;
+}
+
+.list-two{
+    margin: 35px 0;
+}
+
+.list-two h1{
+    font-family: "Young Serif", serif;
+    font-weight: bold;
+    font-size: 40px;
+    padding-bottom: 10px;
+    color: hsl(332, 51%, 32%);
+}
+
+.list-two ul li{
+    margin: 15px;
+}
+
+hr{
+    margin: 25px 0;
+    color: #ddd;
+    opacity: 0.4;
+}
+
+.list-three{
+    margin: 35px 0;
+}
+
+.list-three h1{
+    font-family: "Young Serif", serif;
+    font-weight: bold;
+    font-size: 40px;
+    padding-bottom: 10px;
+    color: hsl(332, 51%, 32%);
+}
+
+.list-three ol li{
+    margin: 15px;
+    text-decoration-color: black;
+}
+
+.list-three ol li span{
+    font-weight: bold;
+    line-height: 4.5vh;
+    font-size: 16px;
+}
+
+.table-data{
+    margin: 35px 0;
+}
+
+.table-data h1{
+    font-family: "Young Serif", serif;
+    font-weight: bold;
+    font-size: 40px;
+    color: hsl(332, 51%, 32%);
+}
+
+table{
+    width: 100%;
+}
+
+table tr td span{
+    color: hsl(332, 51%, 32%);
+    font-weight: bold;
+}
+
+table tr td{
+    color:  hsl(30, 10%, 34%);
+    font-weight: 400;
+}
+
+th, td {
+    border-bottom: 1.5px solid #ddd;
+    padding: 15px;
+}
+
+@media only screen and (max-width:375px){
+    .wrapper{
+        padding: 0px;
+    }
+
+    .mobile-wrapper{
+        padding: 20px;
+    }
+
+    .image-box img{
+        border-radius: 0px;
+    }
+
+    .big-text{
+        font-size: 37px;
+        padding: 20px 0 8px 0;
+    }
+
+    .list-one{
+        margin: 10px 0px;
+        padding: 15px;
+    }
+
+    .list-two{
+        margin: 35px 10px;
+    }
+
+    .list-three{
+        margin: 35px 10px;
+    }
+}
